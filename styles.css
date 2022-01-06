@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
 .section-1 {
   background: #1f2937;
@@ -13,8 +14,21 @@
   justify-content: space-between;
 }
 
+.search {
+  font-family: "Montserrat", sans-serif;
+  height: 10px;
+  margin-top: -0.65rem;
+  padding: 10px 20px;
+  padding-bottom: 20px;
+  border-radius: 25px;
+  border: 3px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  overflow: hidden;
+  resize: none;
+}
+
 .sub-section-1 {
-  max-width: 800px;
+  max-width: 900px;
   padding-top: 1rem;
   margin: auto;
   flex-wrap: wrap;
@@ -58,10 +72,11 @@ a {
 }
 .sign-up {
   background-color: #3882f6;
+  font-family: "Montserrat", sans-serif;
   border-radius: 5px;
   color: #e5e7eb;
   border: none;
-  padding: 8px 15px;
+  padding: 8px 30px;
   margin-bottom: 2rem;
   font-weight: 900;
 }
@@ -74,11 +89,11 @@ a {
 
 .section-2 {
   font-family: montserrat, sans;
+  margin-bottom: 6rem;
 }
 
 .sub-section-2 {
-  margin: 2rem 6rem;
-  padding-top: 1rem;
+  margin: 0rem 6rem;
   margin: auto;
 }
 
@@ -91,7 +106,7 @@ a {
   display: flex;
   font-size: 10px;
   flex-wrap: nowrap;
-  gap: 10px;
+  gap: 2rem;
   justify-content: space-around;
   max-width: 1000px;
   margin: auto;
@@ -104,8 +119,7 @@ a {
   margin-top: -1rem;
   object-fit: cover;
   border-radius: 20px;
-  zoom: 0.8;
-  -moz-transform: scale(0.8);
+
   border: solid black;
 }
 
@@ -117,6 +131,83 @@ a {
 
 .header-2 {
   font-style: bold;
+  font-size: 50px;
   display: flex;
   justify-content: center;
+  margin: 4rem auto;
+}
+
+/* section -3 */
+
+.section-3 {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e5e7eb;
+  padding: 3rem;
+}
+
+.sub-section-3 {
+  margin: auto 10rem;
+}
+
+.main-text {
+  font-size: 30px;
+  font-style: italic;
+  display: flex;
+  color: #1f2937;
+  flex-direction: column;
+}
+
+.name {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 550;
+}
+
+/* Section -4 */
+
+.section-4 {
+  font-family: "Montserrat", sans-serif;
+  padding: 3rem;
+}
+
+.box-section-4 {
+  background-color: #3882f6;
+  padding: 2rem 5rem;
+  border-radius: 10px;
+  margin: auto 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sign-up-2 {
+  font-family: "Montserrat", sans-serif;
+  border: #f9f8f9 solid;
+  color: #f9f8f9;
+  background-color: #3882f6;
+  padding: 7px 30px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.sign-up-2:hover {
+  border: #3882f6 solid;
+  background-color: #2b58a0;
+}
+
+.head-3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #f9f8f9;
+}
+
+.sub-3 {
+  margin-top: -1rem;
+  color: #f9f8f9;
 }
